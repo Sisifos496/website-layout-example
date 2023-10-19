@@ -1,0 +1,157 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    background-color: black;
+    color: white;
+}
+
+.main-container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+}
+
+.header {
+    grid-column: 1 / 4;
+}
+
+.navbar {
+    margin-top: 0.7%;
+    background-color: red;
+    color: yellow;
+    border-radius: 30px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.navbar-left {
+    width: 70%;
+    margin-left: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.navbar-right {
+    display: flex;
+    width: 23%;
+    justify-content: flex-end;    
+}
+
+.navbar-unit:hover {
+    text-decoration: underline;
+    cursor: default;
+}
+
+.menu {
+    grid-row: 2 / 4;
+}
+
+.menu {
+    overflow: auto;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 96%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    color: blue;
+    border-radius: 15px;
+}
+
+.menu-top {
+    height: 25%;
+}
+
+.menu-bottom {
+    height: 75%;
+    gap: 10px;
+}
+
+.menu-unit:hover {
+    text-decoration: underline;
+    cursor: default;
+}
+
+.fenerbahçe-logo {
+    margin-top: 3%;
+}
+
+.right {
+    right: 0;
+    overflow: auto;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 100%;
+    height: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+
+.right-top {
+    height: 30%;
+}
+
+.right-bottom {
+    height: 70%;
+    gap: 10px;
+}
+
+.right-unit:hover {
+    text-decoration: underline;
+    cursor: default;
+}
+
+.beşiktaş-logo {
+    margin-top: 3%;
+}
+
+.main {
+    right: 0;
+    overflow: auto;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 97%;
+    height: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: gold;
+    color: white;
+    border-radius: 15px;
+}
+
+.real-logo {
+    margin-top: 3%;
+}
+
+.main-unit:hover {
+    text-decoration: underline;
+    cursor: default;
+}
+
+.main-top {
+    height: 30%;
+}
+
+.main-bottom {
+    height: 70%;
+    gap: 10px;
+}
+
+.footer {
+    grid-column: 2 / 4;
+    color: red;
+    margin-left: 5%;
+    
+}
